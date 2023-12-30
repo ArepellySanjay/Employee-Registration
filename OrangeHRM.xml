@@ -1,0 +1,14 @@
+<suite name ="orangehrm Test suit">
+	
+	<pararameter name ="adminuid" value ="Admin" ></pararameter>
+	<parameter name = "adminpwd" value = "Qedge123!@#"></parameter>
+	
+	<Test name = "Admin Login Testcase with valid Data">
+		<classes>
+			
+			<class name = "Testcases.Admin_login_testcase "></class>
+		</classes>
+		
+	</Test>
+	
+</suite>
